@@ -1,0 +1,84 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+html,body {
+  height:100%;
+}
+
+h1 {
+	margin-top: 10%;
+  font-family: 'arial', serif;
+  font-size:80px;
+ text-decoration-color: rgba(100, 20, 255, .5);
+}
+
+.lead {
+    color:#fff;
+}
+
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  color:#eee;
+  overflow:hidden;
+
+    background: url(../img/bg.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+  margin-top:7%;
+}
+
+
+.input-lg {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+  
+  .form-control::-moz-placeholder{
+  	color: #FFF;
+  }
+
+
+
+  .input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn{
+  	margin-top: 20px;
+  	font-weight: bold;
+  	background: rgba(100, 20, 255, .5);
+  }
+
+  p.lead a{
+  	margin-top: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
